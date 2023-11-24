@@ -1,0 +1,18 @@
+{
+  "name": "agendaapi",
+  "id": "1309118834099308582",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "editorType": [
+    "figma"
+  ],
+  "networkAccess": {
+    "allowedDomains": [
+      "https://events.startupmission.in"
+    ],
+    "reasoning": "Allowing localhost for development purposes"
+  }
+}

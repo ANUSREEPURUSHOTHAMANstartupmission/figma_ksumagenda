@@ -1,0 +1,17 @@
+<!-- ui.html -->
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Figma Plugin</title>
+</head>
+<body>
+  <!-- Your UI content goes here -->
+  <button onclick="sendMessage()">Fetch Data</button>
+
+  <script>
+    function sendMessage() {
+      parent.postMessage({ pluginMessage: { type: 'fetchData' } }, '*');
+    }
+  </script>
+</body>
+</html>
